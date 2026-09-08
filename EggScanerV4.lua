@@ -789,8 +789,7 @@ CopyButton.MouseButton1Click:Connect(function()
             Status.Text = "✓ Tudo copiado para a área de transferência!"
 
             local oldText = CopyButton.Text
-            CopyButton.T
-                    CopyButton.Text = "✓ COPIADO"
+                        CopyButton.Text = "✓ COPIADO"
 
             task.wait(1.2)
 
